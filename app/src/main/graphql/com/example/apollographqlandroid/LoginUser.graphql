@@ -1,0 +1,29 @@
+query loginUser($login:String!, $password:String!){
+    studentLogin(login:$login, password:$password){
+        id
+        firstName
+        secondName
+        lastName
+        userRole{
+            roleName
+        }
+        group{
+            id
+            name
+            groupSubjects{
+                id
+                dayOfWeek
+                orderNumber
+                teacher{
+                    firstName
+                    secondName
+                    lastName
+                }
+                subject{
+                    id
+                    subjectName
+                }
+            }
+        }
+    }
+}

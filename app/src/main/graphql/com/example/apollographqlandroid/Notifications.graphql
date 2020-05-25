@@ -1,0 +1,5 @@
+mutation notificationForStudent($studentId:Int!, $groupId:Int!){
+    notificationsForStudent(studentId: $studentId, groupId: $groupId){
+        message
+    }
+}

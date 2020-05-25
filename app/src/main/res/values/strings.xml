@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Университет</string>
+    <string name="authorize">Войти</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="login_error">Логин должен состоять минимум из 1 символа и без пробелов!</string>
+    <string name="password_error">Пароль должен состоять минимум из 1 символа и без пробелов!</string>
+    <string name="wrong_login_or_password">Неверный логин или пароль.</string>
+    <string name="group">Группа:</string>
+    <string name="student">Студент:</string>
+    <string name="teacher">Преподаватель:</string>
+    <string name="subject">Предмет:</string>
+    <string name="event_time">Время проведения:</string>
+    <string name="attendance">Успеваемость:</string>
+</resources>

@@ -1,0 +1,8 @@
+query studentAttendance($groupSubjectId:Int!, $studentId:Int!){
+    studentAttendance(studentId: $studentId, groupSubjectId: $groupSubjectId){
+        stringData
+        mark{
+            markValue
+        }
+    }
+}
